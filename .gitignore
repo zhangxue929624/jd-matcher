@@ -1,0 +1,14 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Local secrets (keep the example configuration)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
